@@ -10,6 +10,12 @@ int main()
         // i++ is the increment operator which will increase the value of i by 1 after each iteration
         printf("%d.Understanding for loop in C\n", i);
     }
+
+    for(int j = 5; j <= 10; j++) //* incrementing j from 5 to 10 and printing "hi" in each iteration
+    {
+        printf("hi\n");
+        j++; //* incrementing again, so j will be incremented by 2 in each iteration
+    }
     
     return 0;
 
